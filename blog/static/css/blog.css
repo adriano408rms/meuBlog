@@ -1,9 +1,68 @@
-h1 a {
-    color: #191970;
-}
 
 body {
-    padding-left: 20px;
-    background-color:#A9A9A9;
+    background-color:#D3D3D3;
     font-family: 'Squada One', cursive;
 }
+
+.page-header{
+    background-color: #191970;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header a:visited,
+.page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 40px;
+
+}
+
+.h1, h2, h3, h4 {
+    font-family: 'Squada One', cursive;
+}
+
+.date{
+    color: #000000;
+}
+
+.save{
+    float: right;
+}
+
+.post-form textarea, .post-form input{
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited{
+    color: #ffffff;
+    float: right;
+    font-size: 26px;
+    margin-right: 20px;
+}
+
+.post{margin-bottom: 70px;}
+.post h1 a, .post h1 a:visited{color: #000080;}
+
+.post_detail{
+    background-color: #191970;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.post_detail h1, .post_detail h1 a, .post_detail a:visited,
+.post_detail h1 a:active {
+    color: #ffffff;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+.post {
+    margin-left: 40px;
+
+}
+
