@@ -1,21 +1,6 @@
-{% load staticfiles %}
+{% extends 'blog/base.html' %}
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>About Post</title>
-
-    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
-    <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
-</head>
-<body>
-
-<div class="post_detail">
-    <h1>
-        <a href="">Blog django</a>
-    </h1>
-</div>
-
+{% block content %}
     <div class="post">
         {% if post.published_date %}
             <div class="date">
@@ -26,5 +11,4 @@
         <p> {{ post.text }}</p>
     </div>
 
-</body>
-</html>
+{% endblock %}
